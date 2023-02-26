@@ -33,8 +33,8 @@ Under the hood "Grayscale to RGB" uses the macOS `sips` tool to convert the colo
 
 The Terminal window command looks like this:
 
-```
-sips -M /System/Library/ColorSync/Profiles/AdobeRGB1998.icc relative myFile.jpg -o myFileRGB.jpg
+```shell
+$ sips -M /System/Library/ColorSync/Profiles/AdobeRGB1998.icc relative myFile.jpg -o myFileRGB.jpg
 ```
 
 - `-M <target profile> <method>` specifies the target profile and method for conversion
