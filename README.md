@@ -29,10 +29,15 @@ It is that easy!
 
 This section is for those who like to know how things work.
 
-Grayscape to RGB uses the macOS `sips` tool to convert the color profile of selected images to AdobeRGB.
+Under the hood "Grayscale to RGB" uses the macOS `sips` tool to convert the color profile of selected images to AdobeRGB.
 
 The Terminal window command looks like this:
 
 ```
 sips -M /System/Library/ColorSync/Profiles/AdobeRGB1998.icc relative myFile.jpg -o myFileRGB.jpg
 ```
+
+- `-M <target profile> <method>` specifies the target profile and method for conversion
+- `-o output_file` specifies the target output file
+
+If you want to read more about what `sips` can do you can type `man sips` at a Terminal window command prompt.
