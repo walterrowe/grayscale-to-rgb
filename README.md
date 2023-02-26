@@ -1,4 +1,4 @@
-<img style="width:128px;float:right;padding:0px 20px;" src=droplet_icon/droplet.iconset/icon_1024x1024.png></img>
+<img style="width:512px;" src=droplet_icon/droplet.iconset/icon_1024x1024.png></img>
 
 # Grayscale to RGB
 
