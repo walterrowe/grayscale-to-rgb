@@ -4,17 +4,22 @@
 
 Have you ever imported a black and white image into Capture One and found you cannot edit it? This is likely because your scanning software saved the image file in a grayscale color space. Capture One cannot edit grayscale images.
 
-Grayscale to RGB makes it easy to batch convert the color profile of grayscale images to the AdobeRGB color space. This allows Capture One to edit them. The original image files are not touched. The tool writes a new image file with "RGB" appended to the source filename. For example, an file called "image.jpg" will have an output file of "imageRGB.jpg". Only the color profile is changed. The bits per channel and type are retained.
+Grayscale to RGB makes it easy for macOS users to batch convert the color profile of grayscale images to the AdobeRGB color space. This allows Capture One to edit them. The original image files are not touched. The tool writes a new image file with "RGB" appended to the source filename. For example, an file called "image.jpg" will have an output file of "imageRGB.jpg". Only the color profile is changed. The bits per channel and type are retained.
+
+# Requirements
+
+This tool only runs on macOS.
 
 # Installation
 
-Installation is really simple.
+Installation is really simple. It self-installs in the directory you choose. Just run the AppleScript script in Script Editor.
 
-1. Double-click the "Grayscale to RGB" AppleScript to open it in Script Editor.
-1. Click the right-arrow in top bar of the Script Editor to run it.
+1. Download the project using the Download button at the top of this page.
+1. Double-click "Grayscale to RGB.applescript" to open it in Script Editor.
+1. Click the right-arrow in the top toolbar of the Script Editor to run it.
 1. Choose the folder where you want the droplet created.
 
-Once you have the style droplet created you are ready to use "Grayscale to RGB".
+Once you install the style droplet you are ready to use "Grayscale to RGB".
 
 # How To Use
 
@@ -33,7 +38,7 @@ Under the hood "Grayscale to RGB" uses the macOS `sips` tool to convert the colo
 
 The Terminal window command looks like this:
 
-```shell
+```bash
 $ sips -M /System/Library/ColorSync/Profiles/AdobeRGB1998.icc relative myFile.jpg -o myFileRGB.jpg
 ```
 
