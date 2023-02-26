@@ -1,6 +1,6 @@
-<img style="width:512px;" src=droplet_icon/droplet.iconset/icon_1024x1024.png></img>
-
 # Grayscale to RGB
+
+<img style="width:256px;float:right;padding:0px 20px;" src=droplet_icon/droplet.iconset/icon_1024x1024.png></img>
 
 Have you ever imported a black and white image into Capture One and found you cannot edit it? This is likely because your scanning software saved the image file in a grayscale color space. Capture One cannot edit grayscale images.
 
