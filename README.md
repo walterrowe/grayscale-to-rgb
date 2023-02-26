@@ -14,7 +14,7 @@ This tool only runs on macOS.
 
 Installation is really simple. It self-installs in the directory you choose. Just run the AppleScript script in Script Editor.
 
-1. Download the project using the Download button at the top of this page.
+1. Download the project using Download ZIP under the green Code button on this page.
 1. Double-click "Grayscale to RGB.applescript" to open it in Script Editor.
 1. Click the right-arrow in the top toolbar of the Script Editor to run it.
 1. Choose the folder where you want the droplet created.
