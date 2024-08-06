@@ -4,7 +4,7 @@
 
 Have you ever imported a black and white image into Capture One and found you cannot edit it? This is likely because your scanning software saved the image file in a grayscale color space. Capture One cannot edit grayscale images.
 
-Grayscale to RGB makes it easy for macOS users to batch convert the color profile of grayscale images to the AdobeRGB color space. This allows Capture One to edit them. The original image files are not touched. The tool writes a new image file with "RGB" appended to the source filename. For example, an file called "image.jpg" will have an output file of "imageRGB.jpg". Only the color profile is changed. The bits per channel and type are retained.
+Grayscale to RGB makes it easy for macOS users to batch convert the color profile of grayscale images to the AdobeRGB color space. The images remain monochrome, but this allows Capture One to edit them. The original image files are not touched. The tool writes a new image file with "RGB" appended to the source filename. For example, an file called "image.jpg" will have an output file of "imageRGB.jpg". Only the color profile is changed. The bits per channel and type are retained.
 
 # Requirements
 
